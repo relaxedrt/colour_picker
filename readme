@@ -1,0 +1,13 @@
+Proyecto con el que se busca la aceptación o rechazo de un bloque cuadrado, y consiguiente su clasificación por un robot arduino.
+Para conseguirlo necesitaremos una webcam, un posicionador para la misma, un robot arduino.
+Las bases de programación para el proyecto son:
+  -Python
+    -Vision Artificial
+    -Clasificación de objetos
+    -Comunicacion Serie
+  -Arduino
+    -Interpretacion de comunicación serie
+    -Movimiento de servomotores
+
+
+  

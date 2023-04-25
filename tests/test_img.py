@@ -34,5 +34,3 @@ if conf == True:
                 log.error(msg="No se han detectado 4 vertices.")
     else:
         log.error(msg="No se ha detectado el color azul.")
-
-

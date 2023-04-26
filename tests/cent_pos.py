@@ -52,6 +52,9 @@ if conf == True:
                     cv2.imwrite(f"processed/prueba.png", res_rgb)
                     #Escribimos por consola la posición del cuadrado
                     log.debug(msg=f"Cuadrado encontrado en posición: {cx},{cy}")
+                    #Detectamos el area del cuadrado
+                    #area = cv2.contourArea(contorno)
+                    #log.debug(msg=f"Cuadrado con area: {area} |||| w: {w} y h: {h}")
             else:
                 #Representamos el error de que no se ha encontrado un cuadrado
                 log.error(msg="No se han detectado 4 vertices.")
